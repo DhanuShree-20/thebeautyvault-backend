@@ -427,14 +427,14 @@ const products = [
   // ==========================
   // BODY CARE - POPULAR TOPICS
   // ==========================
-  
+
   {
     name: "L'Oreal Paris Revitalift 5% Pure Glycolic Scrub",
     image: "https://i.pinimg.com/1200x/c9/ce/7f/c9ce7f33ae214c889150bb65a9cc01dc.jpg",
     description: "A liquid chemical scrub/exfoliant that smooths skin texture and reveals a glowing complexion.",
     brand: "L'Oreal",
     category: "skin-care",
-    subCategory: "face-scrub",
+    subCategory: "body-scrub",
     price: 499,
     mrp: 599,
     countInStock: 35,
@@ -447,7 +447,7 @@ const products = [
     description: "A gentle physical-chemical hybrid scrub that cleanses pores without causing micro-tears.",
     brand: "Minimalist",
     category: "skin-care",
-    subCategory: "face-scrub",
+    subCategory: "body-scrub",
     price: 399,
     mrp: 399,
     countInStock: 60,
@@ -455,12 +455,12 @@ const products = [
     numReviews: 3200
   },
   {
-    name: "Good Vibes Brightening Face Scrub - Apricot",
+    name: "Good Vibes Brightening  Scrub - Apricot",
     image: "https://i.pinimg.com/1200x/65/01/6a/65016a9bea5557a2df4b425eb3dec45d.jpg",
     description: "Infused with Apricot extracts to deeply exfoliate dead skin cells and blackheads.",
     brand: "Good Vibes",
     category: "skin-care",
-    subCategory: "face-scrub",
+    subCategory: "body-scrub",
     price: 225,
     mrp: 299,
     countInStock: 90,
