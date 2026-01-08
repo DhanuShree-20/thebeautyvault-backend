@@ -1,0 +1,38 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables (CRITICAL: Do not upload your MONGO_URI)
+.env
+.env.local
+.env.production
+.env.development
+
+# Firebase Admin SDK private key (CRITICAL)
+# Usually named something like serviceAccountKey.json or firebase-adminsdk.json
+*.json
+!package.json
+!package-lock.json
+serviceAccountKey.json
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Temporary folders
+dist/
+build/
+tmp/
+
+# Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
