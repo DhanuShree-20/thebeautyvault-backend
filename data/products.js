@@ -4,6 +4,85 @@ const products = [
   // HAIR CARE
   // ==========================
   {
+    name: "L'Oreal Professionnel Mythic Oil",
+    image: "https://in.pinterest.com/pin/162551867775252287/",
+    description: "Professional nourishing oil for all hair types, enriched with avocado and grape seed oil.",
+    brand: "L'Oreal",
+    category: "hair-care",
+    subCategory: "hair-oil",
+    price: 1150,
+    mrp: 1300,
+    countInStock: 15,
+    rating: 4.8,
+    numReviews: 850
+  },
+  {
+    name: "Minimalist Hair Growth Daily Serum with 3% Redensyl",
+    image: "https://i.pinimg.com/1200x/8a/0e/8b/8a0e8b340345a55f3320f63f87b7e0cc.jpg",
+    description: "A concentrated hair growth oil-serum to reduce hair fall and increase thickness.",
+    brand: "Minimalist",
+    category: "hair-care",
+    subCategory: "hair-oil",
+    price: 795,
+    mrp: 799,
+    countInStock: 45,
+    rating: 4.6,
+    numReviews: 2100
+  },
+  {
+    name: "Kama Ayurveda Intensive Hair Treatment Bringadi Oil",
+    image: "https://i.pinimg.com/736x/e5/7b/f9/e57bf98d63c7eec47f00ceebb7efa39d.jpg",
+    description: "Traditional Ayurvedic treatment to prevent hair loss, dandruff, and premature greying.",
+    brand: "Kama Ayurveda",
+    category: "hair-care",
+    subCategory: "hair-oil",
+    price: 975,
+    mrp: 1050,
+    countInStock: 12,
+    rating: 4.9,
+    numReviews: 3200
+  },
+  {
+    name: "The Ordinary 100% Organic Cold-Pressed Moroccan Argan Oil",
+    image: "https://i.pinimg.com/1200x/c8/84/77/c884777578931b3cd7ac9eabbb6b8a45.jpg",
+    description: "Daily support for hair and skin. Supports healthy hair and adds a natural shine.",
+    brand: "The Ordinary",
+    category: "hair-care",
+    subCategory: "hair-oil",
+    price: 750,
+    mrp: 850,
+    countInStock: 25,
+    rating: 4.7,
+    numReviews: 940
+  },
+  {
+    name: "Mamaearth Onion Hair Oil for Hair Regrowth",
+    image: "https://i.pinimg.com/1200x/8d/2f/48/8d2f483dce5aeb74f7a1578fcb4ea4a0.jpg",
+    description: "With Onion and Redensyl to control hair fall and help grow new hair.",
+    brand: "Mamaearth",
+    category: "hair-care",
+    subCategory: "hair-oil",
+    price: 399,
+    mrp: 499,
+    countInStock: 60,
+    rating: 4.3,
+    numReviews: 5400
+  },
+  {
+    name: "Vatika Hair Oil",
+    image: "https://i.pinimg.com/1200x/32/5b/bb/325bbb748b7b06b33868b79e11340a7f.jpg",
+    description: "Proprietary Ayurvedic medicine for hair fall, comes with a selfie comb for easy application.",
+    brand: "Indulekha",
+    category: "hair-care",
+    subCategory: "hair-oil",
+    price: 432,
+    mrp: 540,
+    countInStock: 100,
+    rating: 4.4,
+    numReviews: 12000
+  },
+  
+  {
     name: "L'Oreal Professionnel Absolut Repair Shampoo",
     image: "https://tse2.mm.bing.net/th/id/OIP._Fjmt3CVg_dkzFsVJC2ZCAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
     description: "Professional resurfacing shampoo for damaged hair.",
@@ -82,6 +161,58 @@ const products = [
     numReviews: 12000
   },
   {
+    name: "Minimalist Maleic Bond Repair Complex 05% Mask",
+    image: "https://i.pinimg.com/736x/1a/54/85/1a5485ba1eb5cef76db6ead415c035a9.jpg",
+    description: "A new patent-pending hair mask that repairs hair bonds and treats damaged hair at a structural level.",
+    brand: "Minimalist",
+    category: "hair-care",
+    subCategory: "hair-mask",
+    price: 499,
+    mrp: 499,
+    countInStock: 50,
+    rating: 4.7,
+    numReviews: 1850
+  },
+  {
+    name: " Hair Mask for Hair Fall Control",
+    image: "https://i.pinimg.com/736x/3d/36/5a/3d365ac2e3eb86c4ace96e096beb88d9.jpg",
+    description: "Reduces hair fall and repairs damaged hair with the goodness of Onion and Organic Bamboo Vinegar.",
+    brand: "Mamaearth",
+    category: "hair-care",
+    subCategory: "hair-mask",
+    price: 539,
+    mrp: 599,
+    countInStock: 40,
+    rating: 4.4,
+    numReviews: 5200
+  },
+  {
+    name: "The Ordinary Behentrimonium Chloride 2% Conditioner & Mask",
+    image: "https://i.pinimg.com/1200x/32/ce/50/32ce506117c1d942af759d0380f42684.jpg",
+    description: "A minimalist approach to deep conditioning that softens hair without the heavy feel of silicones.",
+    brand: "The Ordinary",
+    category: "hair-care",
+    subCategory: "hair-mask",
+    price: 750,
+    mrp: 850,
+    countInStock: 20,
+    rating: 4.5,
+    numReviews: 980
+  },
+  {
+    name: "Good Vibes Banana Shine Hair Mask",
+    image: "https://i.pinimg.com/1200x/36/df/44/36df44166d5c764c9a9abf2b5d561bbc.jpg",
+    description: "Nourishing hair mask that adds intense shine and smoothness to frizzy hair using real banana extracts.",
+    brand: "Good Vibes",
+    category: "hair-care",
+    subCategory: "hair-mask",
+    price: 295,
+    mrp: 350,
+    countInStock: 80,
+    rating: 4.2,
+    numReviews: 2100
+  },
+  {
     name: "Mamaearth Onion Hair Mask",
     image: "https://i.pinimg.com/736x/43/a8/01/43a80145cabe8478cfea99a3e1022d78.jpg",
     description: "For hair fall control with Onion Oil and Organic Bamboo Vinegar.",
@@ -110,6 +241,84 @@ const products = [
   // ==========================
   // SKIN CARE
   // ==========================
+  {
+    name: "Minimalist 2% Salicylic Acid Face Wash",
+    image: "https://i.pinimg.com/736x/fb/eb/67/fbeb6717a8ce4aedad7c632453147a21.jpg",
+    description: "Daily gentle exfoliator that cleanses pores and reduces excess oil without drying.",
+    brand: "Minimalist",
+    category: "skin-care",
+    subCategory: "face-wash",
+    price: 299,
+    mrp: 299,
+    countInStock: 100,
+    rating: 4.7,
+    numReviews: 15400
+  },
+  {
+    name: "L'Oreal Paris Revitalift Hyaluronic Acid Hydrating Gel Cleanser",
+    image: "https://i.pinimg.com/1200x/6a/06/4c/6a064c7bd2caecfb874b355aee892464.jpg",
+    description: "Deeply cleanses and plumps skin with Hyaluronic Acid for a hydrated, radiant look.",
+    brand: "L'Oreal",
+    category: "skin-care",
+    subCategory: "face-wash",
+    price: 345,
+    mrp: 399,
+    countInStock: 45,
+    rating: 4.6,
+    numReviews: 2100
+  },
+  {
+    name: "CeraVe Foaming Facial Cleanser",
+    image: "https://i.pinimg.com/736x/bd/7a/05/bd7a05c1372e689e556861832a5faf23.jpg",
+    description: "Cleanses and removes oil without disrupting the protective skin barrier with 3 essential ceramides.",
+    brand: "The Ordinary", // Matching your brand list fallback
+    category: "skin-care",
+    subCategory: "face-wash",
+    price: 1150,
+    mrp: 1250,
+    countInStock: 15,
+    rating: 4.9,
+    numReviews: 8900
+  },
+  {
+    name: "The Ordinary Squalane Cleanser",
+    image: "https://i.pinimg.com/736x/07/18/86/0718868ecb0db811453a327ec61f5060.jpg",
+    description: "A gentle cleansing product formulated to target makeup removal while leaving the skin feeling smooth.",
+    brand: "The Ordinary",
+    category: "skin-care",
+    subCategory: "face-wash",
+    price: 650,
+    mrp: 750,
+    countInStock: 30,
+    rating: 4.5,
+    numReviews: 1100
+  },
+  {
+    name: "Vitamin C Face Wash",
+    image: "https://i.pinimg.com/1200x/5b/1f/ce/5b1fce79a5c8a0b0915bb8bfb90c8e0a.jpg",
+    description: "With Vitamin C and Turmeric for skin illumination and deep pore cleansing.",
+    brand: "Good Vibes",
+    category: "skin-care",
+    subCategory: "face-wash",
+    price: 235,
+    mrp: 259,
+    countInStock: 150,
+    rating: 4.3,
+    numReviews: 25000
+  },
+  {
+    name: "Lakme Absolute Perfect Radiance Skin Brightening Face Wash",
+    image: "https://i.pinimg.com/1200x/61/0f/cb/610fcb40b650690fed899c9d08c0543a.jpg",
+    description: "Polishes your skin to give you an illuminated look with precious micro-crystals.",
+    brand: "Lakme",
+    category: "skin-care",
+    subCategory: "face-wash",
+    price: 210,
+    mrp: 275,
+    countInStock: 80,
+    rating: 4.4,
+    numReviews: 3200
+  },
   {
     name: "Mamaearth Vitamin C Face Wash",
     image: "https://i.pinimg.com/1200x/a1/69/2f/a1692ffa8a8a49ed1c2ed711332dae71.jpg",
@@ -218,6 +427,86 @@ const products = [
   // ==========================
   // BODY CARE - POPULAR TOPICS
   // ==========================
+  [
+    [
+  {
+    name: "L'Oreal Paris Revitalift 5% Pure Glycolic Scrub",
+    image: "https://i.pinimg.com/1200x/c9/ce/7f/c9ce7f33ae214c889150bb65a9cc01dc.jpg",
+    description: "A liquid chemical scrub/exfoliant that smooths skin texture and reveals a glowing complexion.",
+    brand: "L'Oreal",
+    category: "skin-care",
+    subCategory: "face-scrub",
+    price: 499,
+    mrp: 599,
+    countInStock: 35,
+    rating: 4.6,
+    numReviews: 2100
+  },
+  {
+    name: "Minimalist 2% PHA + 5% Niacinamide Face Pore Cleanser",
+    image: "https://i.pinimg.com/736x/72/b6/e4/72b6e416693d4ea9bf225e36e8b243e2.jpg",
+    description: "A gentle physical-chemical hybrid scrub that cleanses pores without causing micro-tears.",
+    brand: "Minimalist",
+    category: "skin-care",
+    subCategory: "face-scrub",
+    price: 399,
+    mrp: 399,
+    countInStock: 60,
+    rating: 4.8,
+    numReviews: 3200
+  },
+  {
+    name: "Good Vibes Brightening Face Scrub - Apricot",
+    image: "https://i.pinimg.com/1200x/65/01/6a/65016a9bea5557a2df4b425eb3dec45d.jpg",
+    description: "Infused with Apricot extracts to deeply exfoliate dead skin cells and blackheads.",
+    brand: "Good Vibes",
+    category: "skin-care",
+    subCategory: "face-scrub",
+    price: 225,
+    mrp: 299,
+    countInStock: 90,
+    rating: 4.3,
+    numReviews: 1800
+  },
+  {
+    name: "L'Oreal Paris Extraordinary Oil Shower Cream",
+    image: "https://i.pinimg.com/736x/f3/10/bd/f310bd9f38cefcde3ddd63b7a389716a.jpg",
+    description: "A decadent oil-to-cream body wash that deeply nourishes dry skin with precious essential oils.",
+    brand: "L'Oreal",
+    category: "body-care",
+    subCategory: "body-wash",
+    price: 499,
+    mrp: 650,
+    countInStock: 30,
+    rating: 4.7,
+    numReviews: 1420
+  },
+  {
+    name: "Minimalist 2% Salicylic Acid + LHA Body Wash",
+    image: "https://i.pinimg.com/736x/98/ae/71/98ae71edd4c3c74323b12d3ada156947.jpg",
+    description: "An exfoliating body wash designed to treat body acne and smooth bumpy skin (Keratosis Pilaris).",
+    brand: "Minimalist",
+    category: "body-care",
+    subCategory: "body-wash",
+    price: 399,
+    mrp: 399,
+    countInStock: 55,
+    rating: 4.8,
+    numReviews: 4300
+  },
+  {
+    name: "Good Vibes Brightening Shower Gel - Vitamin C",
+    image: "https://i.pinimg.com/736x/18/83/01/18830169063cae71b97e847274ebbd6a.jpg",
+    description: "Infused with Vitamin C and Orange extracts to brighten dull skin and provide a refreshing citrus aroma.",
+    brand: "Good Vibes",
+    category: "body-care",
+    subCategory: "body-wash",
+    price: 245,
+    mrp: 325,
+    countInStock: 80,
+    rating: 4.4,
+    numReviews: 2100
+  },
   {
     name: "Nivea Shea Smooth Body Milk",
     image: "https://i.pinimg.com/1200x/af/01/d6/af01d62eddaae59d458c32e3a2226c70.jpg",
@@ -355,6 +644,47 @@ const products = [
   // ==========================
   // MAKEUP
   // ==========================
+  
+  {
+    name: "L'Oreal Paris Color Riche Lip Liner - Couture Pink",
+    image: "https://i.pinimg.com/736x/0d/58/af/0d58af1f37e4632aee931c6f411fb90e.jpg",
+    description: "A precision tip liner that prevents lipstick from feathering while providing intense color payoff.",
+    brand: "L'Oreal",
+    category: "makeup",
+    subCategory: "lipliner",
+    price: 650,
+    mrp: 799,
+    countInStock: 25,
+    rating: 4.6,
+    numReviews: 890
+  },
+  {
+    name: "Revolution Relove Lipliner - Super Nude",
+    image: "https://i.pinimg.com/736x/88/34/23/883423f947b67a2ab5fb802463e761c7.jpg",
+    description: "A creamy, highly pigmented lipliner that glides on easily for a perfectly defined pout.",
+    brand: "Revolution",
+    category: "makeup",
+    subCategory: "lipliner",
+    price: 299,
+    mrp: 350,
+    countInStock: 50,
+    rating: 4.4,
+    numReviews: 450
+  },
+  {
+    name: "L.A. Girl Auto Lip Liner - Forever Red",
+    image: "https://i.pinimg.com/1200x/27/98/6f/27986f3538846ca45d197e4c77f66135.jpg",
+    description: "An automatic smudge-proof pencil that defines lips with long-lasting, vibrant red pigment.",
+    brand: "L.A Girl",
+    category: "makeup",
+    subCategory: "lipliner",
+    price: 350,
+    mrp: 450,
+    countInStock: 15,
+    rating: 4.7,
+    numReviews: 1200
+  },
+
   {
     name: "Maybelline New York SuperStay Matte Ink",
     image: "https://i.pinimg.com/1200x/75/72/e3/7572e395349e0f4528583abeb8f8bf6d.jpg",
@@ -380,9 +710,33 @@ const products = [
     countInStock: 20,
     rating: 4.2,
     numReviews: 3200
-  },// ==========================
-  // MAKEUP - POPULAR TOPICS
-  // ==========================
+  },
+  {
+    name: "Mamaearth Rose Tinted 100% Natural Lip Balm",
+    image: "https://i.pinimg.com/1200x/46/47/f1/4647f1a1805d015d3a351bd702671ddf.jpg",
+    description: "100% natural lip balm with Rose oil and Shea Butter for 12-hour moisturization and a natural pink tint.",
+    brand: "Mamaearth",
+    category: "skin-care",
+    subCategory: "lipbalm",
+    price: 199,
+    mrp: 299,
+    countInStock: 100,
+    rating: 4.3,
+    numReviews: 15400
+  },
+  {
+    name: "The Ordinary Squalane + Amino Acids Lip Balm",
+    image: "https://i.pinimg.com/1200x/c8/b6/43/c8b6432b54726585c683035ae9531308.jpg",
+    description: "A high-performance balm that uses Squalane to mimic the skin's natural moisture barrier.",
+    brand: "The Ordinary",
+    category: "skin-care",
+    subCategory: "lipbalm",
+    price: 950,
+    mrp: 950,
+    countInStock: 25,
+    rating: 4.1,
+    numReviews: 296
+  },
   {
     name: "Lakme Absolute Matte Melt Liquid Lip Color",
     image: "https://i.pinimg.com/736x/ed/a6/1a/eda61a1830c0cdb4bc5ea5d479754df6.jpg",
@@ -638,8 +992,8 @@ const products = [
     numReviews: 890
   },
   {
-    name: "Maybelline SuperStay Matte Ink Lipstick",
-    image: "https://images.unsplash.com/photo-1586776977607-310e9c725c37?auto=format&fit=crop&w=800&q=80",
+    name: "Maybelline Matte Ink Lipstick",
+    image: "https://i.pinimg.com/736x/31/f4/a4/31f4a4b0d018ecd4008da0af8e98f698.jpg",
     description: "16-hour saturated liquid matte lip color.",
     brand: "Maybelline",
     category: "makeup",
@@ -664,10 +1018,10 @@ const products = [
     numReviews: 450
   },
   {
-    name: "Lakme Absolute Skin Natural Mousse",
-    image: "https://images.unsplash.com/photo-1599733594230-6b823276abcc?auto=format&fit=crop&w=800&q=80",
+    name: "Essence Absolute  Mousse",
+    image: "https://i.pinimg.com/736x/c8/7b/c5/c87bc5131a3ed857015c4352d11fe87d.jpg",
     description: "Feather-light finish foundation with SPF 8.",
-    brand: "Lakme",
+    brand: "Essence",
     category: "makeup",
     subCategory: "foundation",
     price: 825,
@@ -690,10 +1044,10 @@ const products = [
     numReviews: 1500
   },
   {
-    name: "L'Oreal Paris Extraordinary Oil Serum",
-    image: "https://images.unsplash.com/photo-1527799822344-429dfa8a0fa9?auto=format&fit=crop&w=800&q=80",
+    name: "Pilgrim Oil Serum",
+    image: "https://i.pinimg.com/1200x/4c/4c/c9/4c4cc99c126ac67c6eb21024e766fa04.jpg",
     description: "Multipurpose hair serum that provides hydration and shine.",
-    brand: "L'Oreal",
+    brand: "Pilgrim",
     category: "hair-care",
     subCategory: "serums",
     price: 549,
@@ -717,7 +1071,7 @@ const products = [
   },
   {
     name: "Lamel Hope Lip Oil",
-    image: "https://images.unsplash.com/photo-1625093748300-24c0d85f0a9a?auto=format&fit=crop&w=800&q=80",
+    image: "https://i.pinimg.com/736x/cc/15/78/cc157887a8605c6cf9eda4498ab515e9.jpg",
     description: "Non-sticky nourishing lip oil with a glossy finish.",
     brand: "Lamel",
     category: "makeup",
@@ -743,7 +1097,7 @@ const products = [
   },
   {
     name: "Elle 18 Color Pop Matte Lipstick",
-    image: "https://images.unsplash.com/photo-1591360236480-9c6a4cb3a6de?auto=format&fit=crop&w=800&q=80",
+    image: "https://i.pinimg.com/1200x/25/1e/ec/251eec178734eae3ee637785b4bc60a9.jpg",
     description: "Bold matte colors with a long-lasting, smooth finish.",
     brand: "Elle 18",
     category: "makeup",
@@ -769,7 +1123,7 @@ const products = [
   },
   {
     name: "Vela Foot Repair Cream with Urea",
-    image: "https://images.unsplash.com/photo-1519415510236-85592ada580e?auto=format&fit=crop&w=800&q=80",
+    image: "https://i.pinimg.com/736x/87/90/37/87903776955c02ec72eb91e740cf9fc4.jpg",
     description: "Deeply moisturizing cream for cracked heels and dry feet.",
     brand: "Vela",
     category: "Pedicure",
@@ -808,7 +1162,7 @@ const products = [
   },
   {
     name: "Lamel Smart Skin Compact Powder",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?auto=format&fit=crop&w=800&q=80",
+    image: "https://i.pinimg.com/1200x/40/9d/43/409d4337a4efe3c943f27527276f5e2c.jpg",
     description: "Ultra-fine blurring powder for a velvet-matte finish.",
     brand: "Lamel",
     category: "makeup",
@@ -821,7 +1175,7 @@ const products = [
   },
   {
     name: "Elle 18 Eye Drama Kajal - Bold Black",
-    image: "https://images.unsplash.com/photo-1620917670397-dc7bc45e6976?auto=format&fit=crop&w=800&q=80",
+    image: "https://i.pinimg.com/736x/a2/03/1d/a2031d73a4ffac1d67483b105c1f6147.jpg",
     description: "Smudge-proof and water-proof intense black kajal.",
     brand: "Elle 18",
     category: "makeup",
@@ -834,7 +1188,7 @@ const products = [
   },
   {
     name: "Vela Professional Hair Mask",
-    image: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
+    image: "https://i.pinimg.com/1200x/bd/67/6f/bd676f16106d225297687eb5493f6823.jpg",
     description: "Deep conditioning therapy for chemically treated hair.",
     brand: "Vela",
     category: "Hair Care",
