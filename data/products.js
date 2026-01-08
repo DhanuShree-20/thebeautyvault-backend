@@ -427,8 +427,7 @@ const products = [
   // ==========================
   // BODY CARE - POPULAR TOPICS
   // ==========================
-  [
-    [
+  
   {
     name: "L'Oreal Paris Revitalift 5% Pure Glycolic Scrub",
     image: "https://i.pinimg.com/1200x/c9/ce/7f/c9ce7f33ae214c889150bb65a9cc01dc.jpg",
